@@ -47,7 +47,7 @@ function App() {
             </div>
             <div className="w-2/5 border-b border-gray-300 flex items-center justify-center">
               <img 
-                src="https://media.istockphoto.com/id/964587256/photo/afro-woman-using-mobile-at-street.jpg?s=612x612&w=is&k=20&c=uI42ZNTywMuFB-OZ4MmaP67C12JFZiBKFl4HcvmUmw8=" 
+                src="https://images.unsplash.com/photo-1586351012965-861a0c69f3d5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" 
                 alt="Happy Black woman using her phone" 
                 className="w-full h-full object-cover"
               />
@@ -55,8 +55,15 @@ function App() {
           </div>
           <div className="flex flex-1">
             <div className="w-3/5 flex">
-              <div className="w-1/2 bg-black flex items-center justify-center text-4xl font-bold text-white">
-                C1
+              <div className="w-1/2 bg-black text-white p-6 flex flex-col justify-between">
+                <div className="flex justify-between items-start">
+                  <span className="text-sm font-semibold">TEAMS CREATED</span>
+                  <span className="text-sm font-semibold">/2023</span>
+                </div>
+                <div className="text-center">
+                  <span className="text-6xl font-extrabold" style={{ fontFamily: 'Playfair Display, serif' }}>400</span>
+                  <span className="text-green-500 text-2xl align-super font-bold">+</span>
+                </div>
               </div>
               <div className="w-1/2 bg-green-500 flex items-center justify-center text-4xl font-bold text-white">
                 C2
